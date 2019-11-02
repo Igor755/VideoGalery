@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout
+    tools:context=".MainActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Start VideoCamera" android:layout_marginTop="20dp"
+        android:id="@+id/button"/>
+
+    <VideoView android:layout_height="200dp" android:layout_width="match_parent" android:layout_marginTop="70dp" android:id="@+id/videoView"/>
+
+    <!-- <androidx.recyclerview.widget.RecyclerViewandroid:id="@+id/recycler_view_progress"android:layout_width="match_parent"android:layout_height="match_parent"android:layout_marginTop="290dp"app:layout_constraintBottom_toBottomOf="parent"app:layout_constraintTop_toTopOf="parent"app:layout_constraintVertical_bias="0.0"tools:layout_editor_absoluteX="0dp" /> -->
+
+
+</RelativeLayout>
